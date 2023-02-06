@@ -1,0 +1,118 @@
+{
+  "project_info": {
+    "project_number": "117126609795",
+    "project_id": "flashchat-a7638",
+    "storage_bucket": "flashchat-a7638.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117126609795:android:a44eacab84f17f945e14b6",
+        "android_client_info": {
+          "package_name": "co.bearman.flash_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117126609795-vok2ch9ivhurfehbq2vkli59cmn26oue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6JVqbKAjUW4VpNO76quG0RjoSU2Zzz_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117126609795-vok2ch9ivhurfehbq2vkli59cmn26oue.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "117126609795-utm28qmvh46ibv1hjkbpkbr72rc4pt96.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.bearman.flashChat"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117126609795:android:b50aa3b942eb3f075e14b6",
+        "android_client_info": {
+          "package_name": "com.bearman.firestore_playground"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117126609795-vok2ch9ivhurfehbq2vkli59cmn26oue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6JVqbKAjUW4VpNO76quG0RjoSU2Zzz_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117126609795-vok2ch9ivhurfehbq2vkli59cmn26oue.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "117126609795-utm28qmvh46ibv1hjkbpkbr72rc4pt96.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.bearman.flashChat"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117126609795:android:322175496f7f477c5e14b6",
+        "android_client_info": {
+          "package_name": "com.example.android_firebase_playground"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117126609795-vok2ch9ivhurfehbq2vkli59cmn26oue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6JVqbKAjUW4VpNO76quG0RjoSU2Zzz_E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117126609795-vok2ch9ivhurfehbq2vkli59cmn26oue.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "117126609795-utm28qmvh46ibv1hjkbpkbr72rc4pt96.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "co.bearman.flashChat"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
