@@ -3,8 +3,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.android_firebase_playground">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:allowBackup="true"
+        android:name=".MyApplication"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
@@ -21,6 +24,14 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <meta-data android:name="com.facebook.sdk.ApplicationId"
+                android:value="@string/facebook_app_id"/>
+            <meta-data android:name="com.facebook.sdk.ClientToken"
+                android:value="@string/facebook_client_token"/>
+<!--            <meta-data android:name="com.facebook.sdk.ClientToken"-->
+<!--                android:value="846649249769011"/>-->
+<!--            <meta-data android:name="com.facebook.sdk.ApplicationId"-->
+<!--                android:value="846649249769011"/>-->
         </activity>
     </application>
 
