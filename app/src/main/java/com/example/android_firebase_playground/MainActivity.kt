@@ -1,7 +1,10 @@
 package com.example.android_firebase_playground
 
+import android.content.Intent
 import android.os.Build
 import android.os.Bundle
+import android.provider.Settings
+import android.provider.Settings.SettingNotFoundException
 import android.util.Log
 import android.view.View
 import android.widget.Button
@@ -36,6 +39,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         signInLauncher.launch(signInIntent)
+        val logout = findViewById<Button>(R.id.btn_logout)
+        logout.visibility = View.VISIBLE
+        logout.setOnClickListener {
+            firebase.signOut()
+        }
     }
 
     private fun onSignInResult(result: FirebaseAuthUIAuthenticationResult) {

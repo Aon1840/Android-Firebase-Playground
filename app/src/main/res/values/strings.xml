@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Android-Firebase-Playground</string>
+    <string name="facebook_application_id" translatable="false">846649249769011</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">846649249769011</string>
+    <string name="facebook_app_id">846649249769011</string>
+    <string name="facebook_client_token">27f34664894347dd223fa9169d5830cc</string>
+
 </resources>
